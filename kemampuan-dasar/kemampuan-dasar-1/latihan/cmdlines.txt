@@ -1,0 +1,145 @@
+C:\Users\HP>echo "Hellow World"
+"Hellow World"
+
+----------------------------------------------------------------------------------------------
+
+C:\Users\HP\Documents>date
+The current date is: Thu 28/11/2019
+
+----------------------------------------------------------------------------------------------
+
+C:\Users\HP\Documents>mkdir praxis-academy\kemampuan-dasar-1\latihan
+
+----------------------------------------------------------------------------------------------
+
+C:\Users\HP\Documents>cd praxis-academy\kemampuan-dasar-1\latihan
+
+C:\Users\HP\Documents\praxis-academy\kemampuan-dasar-1\latihan>
+
+----------------------------------------------------------------------------------------------
+
+C:\Users\HP\Documents\praxis-academy\kemampuan-dasar-1\latihan>dir
+ Volume in drive C has no label.
+ Volume Serial Number is E65D-1E6B
+
+ Directory of C:\Users\HP\Documents\praxis-academy\kemampuan-dasar-1\latihan
+
+28/11/2019  19:18    <DIR>          .
+28/11/2019  19:18    <DIR>          ..
+28/11/2019  19:18    <DIR>          powershellscripts
+28/11/2019  19:10    <DIR>          shellscripts
+               0 File(s)              0 bytes
+               4 Dir(s)  192,334,577,664 bytes free
+
+----------------------------------------------------------------------------------------------
+
+C:\Users\HP\Documents>ipconfig
+
+Windows IP Configuration
+
+
+Ethernet adapter Ethernet 2:
+
+   Media State . . . . . . . . . . . : Media disconnected
+   Connection-specific DNS Suffix  . :
+
+Wireless LAN adapter Local Area Connection* 2:
+
+   Media State . . . . . . . . . . . : Media disconnected
+   Connection-specific DNS Suffix  . :
+
+Wireless LAN adapter Local Area Connection* 4:
+
+   Media State . . . . . . . . . . . : Media disconnected
+   Connection-specific DNS Suffix  . :
+
+Wireless LAN adapter Wi-Fi 2:
+
+----------------------------------------------------------------------------------------------
+
+C:\Users\HP\Documents\praxis-academy\kemampuan-dasar-1\latihan>cls
+
+----------------------------------------------------------------------------------------------
+
+C:\Users\HP\Documents\praxis-academy\kemampuan-dasar-1\latihan>rmdir latihan-mkdir
+
+----------------------------------------------------------------------------------------------
+
+C:\Users\HP\Documents\praxis-academy\kemampuan-dasar-1\latihan>time
+The current time is: 20:27:47.96
+
+----------------------------------------------------------------------------------------------
+
+C:\Users\HP\Documents\praxis-academy\kemampuan-dasar-1\latihan2>whoami
+desktop-nss3lqr\hp
+
+----------------------------------------------------------------------------------------------
+
+C:\Users\HP\Documents\praxis-academy\kemampuan-dasar-1\latihan\powershellscripts>where /F cmd*
+"C:\Users\HP\Documents\praxis-academy\kemampuan-dasar-1\latihan\powershellscripts\cmdline.txt"
+
+----------------------------------------------------------------------------------------------
+
+C:\Users\HP\Documents\praxis-academy\kemampuan-dasar-1\latihan\powershellscripts>mode
+
+Status for device CON:
+----------------------
+    Lines:          9001
+    Columns:        119
+    Keyboard rate:  31
+    Keyboard delay: 1
+    Code page:      437
+
+----------------------------------------------------------------------------------------------
+
+C:\Users\HP\Documents\praxis-academy\kemampuan-dasar-1\latihan\powershellscripts>ping www.google.com
+
+Pinging forcesafesearch.google.com [216.239.38.120] with 32 bytes of data:
+Reply from 216.239.38.120: bytes=32 time=92ms TTL=51
+Request timed out.
+Reply from 216.239.38.120: bytes=32 time=259ms TTL=51
+Reply from 216.239.38.120: bytes=32 time=76ms TTL=51
+
+Ping statistics for 216.239.38.120:
+    Packets: Sent = 4, Received = 3, Lost = 1 (25% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 76ms, Maximum = 259ms, Average = 142ms
+
+----------------------------------------------------------------------------------------------
+
+C:\Users\HP\Documents\praxis-academy\kemampuan-dasar-1\latihan\powershellscripts>rename cmdline.txt cmdlines.txt
+
+----------------------------------------------------------------------------------------------
+
+C:\Users\HP\Documents\praxis-academy\kemampuan-dasar-1\latihan\powershellscripts>timeout 3
+
+Waiting for 0 seconds, press a key to continue ...
+
+----------------------------------------------------------------------------------------------
+
+C:\Users\HP\Documents\praxis-academy\kemampuan-dasar-1\latihan\powershellscripts>ver
+
+Microsoft Windows [Version 10.0.18362.175]
+
+----------------------------------------------------------------------------------------------
+
+C:\Users\HP\Documents\praxis-academy\kemampuan-dasar-1\latihan\powershellscripts>tree 3216
+Folder PATH listing
+Volume serial number is E65D-1E6B
+C:\USERS\HP\DOCUMENTS\PRAXIS-ACADEMY\KEMAMPUAN-DASAR-1\LATIHAN\POWERSHELLSCRIPTS\3216
+Invalid path - \USERS\HP\DOCUMENTS\PRAXIS-ACADEMY\KEMAMPUAN-DASAR-1\LATIHAN\POWERSHELLSCRIPTS\3216
+No subfolders exist
+
+----------------------------------------------------------------------------------------------
+
+C:\Users\HP\Documents\praxis-academy\kemampuan-dasar-1\latihan\powershellscripts>path
+PATH=C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\WINDOWS\System32\OpenSSH\;C:\Users\HP\AppData\Local\Microsoft\WindowsApps;
+
+----------------------------------------------------------------------------------------------
+
+C:\Users\HP\Documents\praxis-academy\kemampuan-dasar-1\latihan\powershellscripts>call cmdlines.txt
+
+----------------------------------------------------------------------------------------------
+
+C:\Users\HP\Documents\praxis-academy\kemampuan-dasar-1\latihan\powershellscripts>copy cmdlines.txt cmdline-2.txt
+        1 file(s) copied.

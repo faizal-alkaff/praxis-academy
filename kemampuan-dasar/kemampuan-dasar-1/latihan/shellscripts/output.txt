@@ -1,0 +1,409 @@
+[2019-11-28 21:08.31]  /drives/c/Users/HP/Documents/praxis-academy/kemampuan-dasar-1/latihan
+[HP.DESKTOP-NSS3LQR] ➤ echo "Hello World"
+Hello World
+                                                                                                                                                                                        ✔
+─────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+[2019-11-28 21:08.50]  /drives/c/Users/HP/Documents/praxis-academy/kemampuan-dasar-1/latihan
+[HP.DESKTOP-NSS3LQR] ➤ vi First.sh
+                                                                                                                                                                                        ✔
+─────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+[2019-11-28 21:09.39]  /drives/c/Users/HP/Documents/praxis-academy/kemampuan-dasar-1/latihan
+[HP.DESKTOP-NSS3LQR] ➤ bash First.sh
+Hello World
+                                                                                                                                                                                        ✔
+─────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+[2019-11-28 21:09.45]  /drives/c/Users/HP/Documents/praxis-academy/kemampuan-dasar-1/latihan
+[HP.DESKTOP-NSS3LQR] ➤ chmod a+x First.sh
+                                                                                                                                                                                        ✔
+─────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+[2019-11-28 21:09.57]  /drives/c/Users/HP/Documents/praxis-academy/kemampuan-dasar-1/latihan
+[HP.DESKTOP-NSS3LQR] ➤ ./First.sh
+Hello World
+                                                                                                                                                                                        ✔
+─────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+[2019-11-28 21:10.02]  /drives/c/Users/HP/Documents/praxis-academy/kemampuan-dasar-1/latihan
+[HP.DESKTOP-NSS3LQR] ➤ vi echo_example.sh
+                                                                                                                                                                                        ✔
+─────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+[2019-11-28 21:10.39]  /drives/c/Users/HP/Documents/praxis-academy/kemampuan-dasar-1/latihan
+[HP.DESKTOP-NSS3LQR] ➤ bash echo_example.sh
+Printing text with newline
+Printing text without newline
+Removing         backslash       characters
+
+                                                                                                                                                                                        ✔
+─────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+[2019-11-28 21:10.45]  /drives/c/Users/HP/Documents/praxis-academy/kemampuan-dasar-1/latihan
+[HP.DESKTOP-NSS3LQR] ➤ vi comment_example.sh
+                                                                                                                                                                                        ✔
+─────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+[2019-11-28 21:11.13]  /drives/c/Users/HP/Documents/praxis-academy/kemampuan-dasar-1/latihan
+[HP.DESKTOP-NSS3LQR] ➤ bash comment_example.sh
+60
+                                                                                                                                                                                        ✔
+─────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+[2019-11-28 21:11.19]  /drives/c/Users/HP/Documents/praxis-academy/kemampuan-dasar-1/latihan
+[HP.DESKTOP-NSS3LQR] ➤ vi multiline-comment.sh
+                                                                                                                                                                                        ✔
+─────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+[2019-11-28 21:11.51]  /drives/c/Users/HP/Documents/praxis-academy/kemampuan-dasar-1/latihan
+[HP.DESKTOP-NSS3LQR] ➤ bash multiline-comment.sh
+25
+                                                                                                                                                                                        ✔
+─────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+[2019-11-28 21:11.59]  /drives/c/Users/HP/Documents/praxis-academy/kemampuan-dasar-1/latihan
+[HP.DESKTOP-NSS3LQR] ➤ vi while_example.sh
+                                                                                                                                                                                        ✔
+─────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+[2019-11-28 21:12.39]  /drives/c/Users/HP/Documents/praxis-academy/kemampuan-dasar-1/latihan
+[HP.DESKTOP-NSS3LQR] ➤ bash while_example.sh
+1
+2
+3
+4
+5
+                                                                                                                                                                                        ✔
+─────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+[2019-11-28 21:12.41]  /drives/c/Users/HP/Documents/praxis-academy/kemampuan-dasar-1/latihan
+[HP.DESKTOP-NSS3LQR] ➤ vi for_example.sh
+                                                                                                                                                                                        ✔
+─────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+[2019-11-28 21:13.03]  /drives/c/Users/HP/Documents/praxis-academy/kemampuan-dasar-1/latihan
+[HP.DESKTOP-NSS3LQR] ➤ bash for_example.sh
+10 9 8 7 6 5 4 3 2 1
+                                                                                                                                                                                        ✔
+─────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+[2019-11-28 21:13.09]  /drives/c/Users/HP/Documents/praxis-academy/kemampuan-dasar-1/latihan
+[HP.DESKTOP-NSS3LQR] ➤ vi user_input.sh
+                                                                                                                                                                                        ✔
+─────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+[2019-11-28 21:13.45]  /drives/c/Users/HP/Documents/praxis-academy/kemampuan-dasar-1/latihan
+[HP.DESKTOP-NSS3LQR] ➤ bash user_input.sh
+Enter Your Name
+Faizal
+Welcome Faizal to LinuxHint
+                                                                                                                                                                                        ✔
+─────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+[2019-11-28 21:13.51]  /drives/c/Users/HP/Documents/praxis-academy/kemampuan-dasar-1/latihan
+[HP.DESKTOP-NSS3LQR] ➤ vi simple_if.sh
+                                                                                                                                                                                        ✔
+─────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+[2019-11-28 21:14.15]  /drives/c/Users/HP/Documents/praxis-academy/kemampuan-dasar-1/latihan
+[HP.DESKTOP-NSS3LQR] ➤ bash simple_if.sh
+It is a two digit number
+                                                                                                                                                                                        ✔
+─────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+[2019-11-28 21:14.23]  /drives/c/Users/HP/Documents/praxis-academy/kemampuan-dasar-1/latihan
+[HP.DESKTOP-NSS3LQR] ➤ vi if_with_AND.sh
+                                                                                                                                                                                        ✘
+─────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+[2019-11-28 21:17.32]  /drives/c/Users/HP/Documents/praxis-academy/kemampuan-dasar-1/latihan
+[HP.DESKTOP-NSS3LQR] ➤ bash if_with_AND.sh
+Enter username
+admin
+Enter password
+secret
+valid user
+                                                                                                                                                                                        ✔
+─────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+[2019-11-28 21:17.37]  /drives/c/Users/HP/Documents/praxis-academy/kemampuan-dasar-1/latihan
+[HP.DESKTOP-NSS3LQR] ➤ vi if_with_OR.sh
+                                                                                                                                                                                        ✔
+─────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+[2019-11-28 21:18.15]  /drives/c/Users/HP/Documents/praxis-academy/kemampuan-dasar-1/latihan
+[HP.DESKTOP-NSS3LQR] ➤ bash if_with_OR.sh
+Enter any number
+40
+You lost the game
+                                                                                                                                                                                        ✔
+─────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+[2019-11-28 21:18.31]  /drives/c/Users/HP/Documents/praxis-academy/kemampuan-dasar-1/latihan
+[HP.DESKTOP-NSS3LQR] ➤ bash if_with_OR.sh
+Enter any number
+15
+You won the game
+[2019-11-28 21:18.36]  /drives/c/Users/HP/Documents/praxis-academy/kemampuan-dasar-1/latihan
+[HP.DESKTOP-NSS3LQR] ➤ vi elseif_example.sh
+                                                                                                                                                                                        ✔
+─────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+[2019-11-28 21:19.37]  /drives/c/Users/HP/Documents/praxis-academy/kemampuan-dasar-1/latihan
+[HP.DESKTOP-NSS3LQR] ➤ bash elseif_example.sh
+Enter your lucky number
+101
+You got 1st prize
+                                                                                                                                                                                        ✔
+─────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+[2019-11-28 21:19.51]  /drives/c/Users/HP/Documents/praxis-academy/kemampuan-dasar-1/latihan
+[HP.DESKTOP-NSS3LQR] ➤ bash elseif_example.sh
+Enter your lucky number
+999
+You got 3rd prize
+                                                                                                                                                                                        ✔
+─────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+[2019-11-28 21:19.57]  /drives/c/Users/HP/Documents/praxis-academy/kemampuan-dasar-1/latihan
+[HP.DESKTOP-NSS3LQR] ➤ bash elseif_example.sh
+Enter your lucky number
+100
+Sorry, try for the next time
+                                                                                                                                                                                        ✔
+─────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+[2019-11-28 21:20.00]  /drives/c/Users/HP/Documents/praxis-academy/kemampuan-dasar-1/latihan
+[HP.DESKTOP-NSS3LQR] ➤ vi case_example.sh
+                                                                                                                                                                                        ✔
+─────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+[2019-11-28 21:21.49]  /drives/c/Users/HP/Documents/praxis-academy/kemampuan-dasar-1/latihan
+[HP.DESKTOP-NSS3LQR] ➤ bash case_example.sh
+Enter your lucky number
+101
+echo You got 1st prize
+                                                                                                                                                                                        ✔
+─────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+[2019-11-28 21:21.53]  /drives/c/Users/HP/Documents/praxis-academy/kemampuan-dasar-1/latihan
+[HP.DESKTOP-NSS3LQR] ➤ bash case_example.sh
+Enter your lucky number
+510
+You got 2nd prize
+                                                                                                                                                                                        ✔
+─────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+[2019-11-28 21:21.57]  /drives/c/Users/HP/Documents/praxis-academy/kemampuan-dasar-1/latihan
+[HP.DESKTOP-NSS3LQR] ➤ bash case_example.sh
+Enter your lucky number
+999
+You got 3rd prize
+                                                                                                                                                                                        ✔
+─────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+[2019-11-28 21:22.00]  /drives/c/Users/HP/Documents/praxis-academy/kemampuan-dasar-1/latihan
+[HP.DESKTOP-NSS3LQR] ➤ bash case_example.sh
+Enter your lucky number
+777
+Sorry, try for the next time
+                                                                                                                                                                                        ✔
+─────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+[2019-11-28 21:22.02]  /drives/c/Users/HP/Documents/praxis-academy/kemampuan-dasar-1/latihan
+[HP.DESKTOP-NSS3LQR] ➤ vi command_line.sh
+                                                                                                                                                                                        ✔
+─────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+[2019-11-28 21:22.56]  /drives/c/Users/HP/Documents/praxis-academy/kemampuan-dasar-1/latihan
+[HP.DESKTOP-NSS3LQR] ➤ bash command_line.sh Linux Hint
+Total arguments : 2
+1st Argument = Linux
+2nd argument = Hint
+                                                                                                                                                                                        ✔
+─────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+[2019-11-28 21:23.10]  /drives/c/Users/HP/Documents/praxis-academy/kemampuan-dasar-1/latihan
+[HP.DESKTOP-NSS3LQR] ➤ vi command_line_names.sh
+                                                                                                                                                                                        ✔
+─────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+[2019-11-28 21:23.41]  /drives/c/Users/HP/Documents/praxis-academy/kemampuan-dasar-1/latihan
+[HP.DESKTOP-NSS3LQR] ➤ bash command_line_names.sh X=45 Y=30
+X+Y=75
+                                                                                                                                                                                        ✔
+─────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+[2019-11-28 21:24.09]  /drives/c/Users/HP/Documents/praxis-academy/kemampuan-dasar-1/latihan
+[HP.DESKTOP-NSS3LQR] ➤ vi string_combine.sh
+                                                                                                                                                                                        ✔
+─────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+[2019-11-28 21:24.41]  /drives/c/Users/HP/Documents/praxis-academy/kemampuan-dasar-1/latihan
+[HP.DESKTOP-NSS3LQR] ➤ bash string_combine.sh
+LinuxHint
+Linux+Hint is a good tutorial blog site
+                                                                                                                                                                                        ✔
+─────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+[2019-11-28 21:24.57]  /drives/c/Users/HP/Documents/praxis-academy/kemampuan-dasar-1/latihan
+[HP.DESKTOP-NSS3LQR] ➤ vi substring_example.sh
+                                                                                                                                                                                        ✔
+─────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+[2019-11-28 21:25.43]  /drives/c/Users/HP/Documents/praxis-academy/kemampuan-dasar-1/latihan
+[HP.DESKTOP-NSS3LQR] ➤ bash substring_example.sh
+Linux
+                                                                                                                                                                                        ✔
+─────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+[2019-11-28 21:25.49]  /drives/c/Users/HP/Documents/praxis-academy/kemampuan-dasar-1/latihan
+[HP.DESKTOP-NSS3LQR] ➤ vi add_numbers.sh
+                                                                                                                                                                                        ✔
+─────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+[2019-11-28 21:26.09]  /drives/c/Users/HP/Documents/praxis-academy/kemampuan-dasar-1/latihan
+[HP.DESKTOP-NSS3LQR] ➤ bash add_numbers.sh
+Enter first number
+25
+Enter second number
+56
+The result of addition=81
+                                                                                                                                                                                        ✔
+─────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+[2019-11-28 21:26.19]  /drives/c/Users/HP/Documents/praxis-academy/kemampuan-dasar-1/latihan
+[HP.DESKTOP-NSS3LQR] ➤ vi function_example.ch
+                                                                                                                                                                                        ✔
+─────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+[2019-11-28 21:26.47]  /drives/c/Users/HP/Documents/praxis-academy/kemampuan-dasar-1/latihan
+[HP.DESKTOP-NSS3LQR] ➤ bash function_example.ch
+I like bash programming
+                                                                                                                                                                                        ✔
+─────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+[2019-11-28 21:26.52]  /drives/c/Users/HP/Documents/praxis-academy/kemampuan-dasar-1/latihan
+[HP.DESKTOP-NSS3LQR] ➤ vi function_parameter.sh
+                                                                                                                                                                                        ✔
+─────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+[2019-11-28 21:27.32]  /drives/c/Users/HP/Documents/praxis-academy/kemampuan-dasar-1/latihan
+[HP.DESKTOP-NSS3LQR] ➤ bash function_parameter.sh
+Area is : 200
+
+─────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+[2019-11-28 21:26.52]  /drives/c/Users/HP/Documents/praxis-academy/kemampuan-dasar-1/latihan
+[HP.DESKTOP-NSS3LQR] ➤ vi function_parameter.sh
+[2019-11-28 21:29.45]  /drives/c/Users/HP/Documents/praxis-academy/kemampuan-dasar-1/latihan
+[HP.DESKTOP-NSS3LQR] ➤ bash function_return.sh
+Enter your name
+Faizal
+Return value of the function is Hello, Faizal
+                                                                              
+─────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+[2019-11-28 21:29.49]  /drives/c/Users/HP/Documents/praxis-academy/kemampuan-dasar-1/latihan
+[HP.DESKTOP-NSS3LQR] ➤ vi make_directory.sh
+                                                                                                                                                                                        ✔
+─────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+[2019-11-28 21:30.45]  /drives/c/Users/HP/Documents/praxis-academy/kemampuan-dasar-1/latihan
+[HP.DESKTOP-NSS3LQR] ➤ bash make_directory.sh
+Enter directory name
+test_dir
+                                                                                                                                                                                        ✔
+─────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+[2019-11-28 21:31.00]  /drives/c/Users/HP/Documents/praxis-academy/kemampuan-dasar-1/latihan
+[HP.DESKTOP-NSS3LQR] ➤ ls
+First.sh               command_line.sh        echo_example.sh        function_example.ch    if_with_AND.sh         multiline-comment.sh   simple_if.sh           test_dir
+add_numbers.sh         command_line_names.sh  elseif_example.sh      function_parameter.sh  if_with_OR.sh          powershellscripts      string_combine.sh      user_input.sh
+case_example.sh        comment_example.sh     for_example.sh         function_return.sh     make_directory.sh      shellscripts           substring_example.sh   while_example.sh
+                                                                                                            
+─────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+[2019-11-28 21:32.04]  /drives/c/Users/HP/Documents/praxis-academy/kemampuan-dasar-1/latihan
+[HP.DESKTOP-NSS3LQR] ➤ bash directory_exist.sh
+Enter directory name
+test_dir
+Directory exist
+                                                                                                                                                                                        ✔
+─────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+[2019-11-28 21:32.16]  /drives/c/Users/HP/Documents/praxis-academy/kemampuan-dasar-1/latihan
+[HP.DESKTOP-NSS3LQR] ➤ bash directory_exist.sh
+Enter directory name
+newdir
+Directory created
+
+─────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+[2019-11-28 21:32.41]  /drives/c/Users/HP/Documents/praxis-academy/kemampuan-dasar-1/latihan
+[HP.DESKTOP-NSS3LQR] ➤ vi read_file.sh
+                                                                                                                                                                                    ✘
+─────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+[2019-11-28 21:34.05]  /drives/c/Users/HP/Documents/praxis-academy/kemampuan-dasar-1/latihan
+[HP.DESKTOP-NSS3LQR] ➤ vi book.txt
+                                                                                                                                                                                        ✔
+─────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+[2019-11-28 21:35.33]  /drives/c/Users/HP/Documents/praxis-academy/kemampuan-dasar-1/latihan
+[HP.DESKTOP-NSS3LQR] ➤ bash read_file.sh
+1. Pro AngularJS
+2. Learning JQquery
+3. PHP Programming
+4. CodeIgniter 3
+                                                                                                                                                                                        ✔
+─────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+[2019-11-28 21:35.38]  /drives/c/Users/HP/Documents/praxis-academy/kemampuan-dasar-1/latihan
+[HP.DESKTOP-NSS3LQR] ➤ cat book.txt
+1. Pro AngularJS
+2. Learning JQquery
+3. PHP Programming
+4. CodeIgniter 3
+
+─────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+[2019-11-28 21:37.47]  /drives/c/Users/HP/Documents/praxis-academy/kemampuan-dasar-1/latihan
+[HP.DESKTOP-NSS3LQR] ➤ ls test.txt
+test.txt
+                                                                                                                                                                                        ✔
+─────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+[2019-11-28 21:37.56]  /drives/c/Users/HP/Documents/praxis-academy/kemampuan-dasar-1/latihan
+[HP.DESKTOP-NSS3LQR] ➤ bash delete_file.sh
+Enter filename to remove
+test.txt
+rm: remove 'test.txt'? y
+                                                                                                                                                                                        ✔
+─────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+[2019-11-28 21:38.10]  /drives/c/Users/HP/Documents/praxis-academy/kemampuan-dasar-1/latihan
+[HP.DESKTOP-NSS3LQR] ➤ ls test.txt
+ls: test.txt: No such file or directory
+
+─────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+[2019-11-28 21:38.14]  /drives/c/Users/HP/Documents/praxis-academy/kemampuan-dasar-1/latihan
+[HP.DESKTOP-NSS3LQR] ➤ vi append_file.sh
+                                                                                                                                                                                        ✔
+─────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+[2019-11-28 21:39.07]  /drives/c/Users/HP/Documents/praxis-academy/kemampuan-dasar-1/latihan
+[HP.DESKTOP-NSS3LQR] ➤ bash append_file.sh
+Before appending the file
+1. Pro AngularJS
+2. Learning JQquery
+3. PHP Programming
+4. CodeIgniter 3
+After appending the file
+1. Pro AngularJS
+2. Learning JQquery
+3. PHP Programming
+4. CodeIgniter 3
+Learning Laravel 5
+
+─────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+[2019-11-28 21:39.13]  /drives/c/Users/HP/Documents/praxis-academy/kemampuan-dasar-1/latihan
+[HP.DESKTOP-NSS3LQR] ➤ vi file_exist.sh
+                                                                                                                                                                                        ✔
+─────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+[2019-11-28 21:39.53]  /drives/c/Users/HP/Documents/praxis-academy/kemampuan-dasar-1/latihan
+[HP.DESKTOP-NSS3LQR] ➤ ls book.txt
+book.txt
+                                                                                                                                                                                        ✔
+─────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+[2019-11-28 21:40.05]  /drives/c/Users/HP/Documents/praxis-academy/kemampuan-dasar-1/latihan
+[HP.DESKTOP-NSS3LQR] ➤ bash file_exist.sh book.txt
+File exists
+                                                                                                                                                                                        ✔
+─────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+[2019-11-28 21:40.17]  /drives/c/Users/HP/Documents/praxis-academy/kemampuan-dasar-1/latihan
+[HP.DESKTOP-NSS3LQR] ➤ bash file_exist.sh book2.txt
+File does not exist
+
+─────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+[2019-11-28 21:42.17]  /drives/c/Users/HP/Documents/praxis-academy/kemampuan-dasar-1/latihan
+[HP.DESKTOP-NSS3LQR] ➤ vi mail_example.sh
+
+─────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+[2019-11-28 21:43.12]  /drives/c/Users/HP/Documents/praxis-academy/kemampuan-dasar-1/latihan
+[HP.DESKTOP-NSS3LQR] ➤ vi date_parse.sh
+                                                                                                                                                                                        ✔
+─────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+[2019-11-28 21:43.57]  /drives/c/Users/HP/Documents/praxis-academy/kemampuan-dasar-1/latihan
+[HP.DESKTOP-NSS3LQR] ➤ bash date_parse.sh
+Thu Nov 28 21:44:01 SEAST 2019
+Current Date is: 28-11-2019
+Current Time is: 21:44:01
+
+─────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+[2019-11-28 21:44.01]  /drives/c/Users/HP/Documents/praxis-academy/kemampuan-dasar-1/latihan
+[HP.DESKTOP-NSS3LQR] ➤ vi wait_example.sh
+                                                                                                                                                                                        ✔
+─────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+[2019-11-28 21:44.24]  /drives/c/Users/HP/Documents/praxis-academy/kemampuan-dasar-1/latihan
+[HP.DESKTOP-NSS3LQR] ➤ bash wait_example.sh
+Wait command
+Exited with status 0
+
+─────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+[2019-11-28 21:44.27]  /drives/c/Users/HP/Documents/praxis-academy/kemampuan-dasar-1/latihan
+[HP.DESKTOP-NSS3LQR] ➤ vi sleep_example.sh
+                                                                                                                                                                                        ✔
+─────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+[2019-11-28 21:45.02]  /drives/c/Users/HP/Documents/praxis-academy/kemampuan-dasar-1/latihan
+[HP.DESKTOP-NSS3LQR] ➤ bash sleep_example.sh
+“Wait for 5 seconds”
+“Completed”
+                                                                                                                                                                                        ✔
+─────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+[2019-11-28 21:45.11]  /drives/c/Users/HP/Documents/praxis-academy/kemampuan-dasar-1/latihan
+[HP.DESKTOP-NSS3LQR] ➤
+
+
