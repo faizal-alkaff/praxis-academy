@@ -1,0 +1,30 @@
+PS C:\WINDOWS\system32> New-Item -Path 'C:\Users\HP\Documents\praxis-academy\kemampuan-dasar\kemampuan-dasar-1\latihan\powershellscripts\My First Script.ps1' -ItemType File
+
+
+    Directory: C:\Users\HP\Documents\praxis-academy\kemampuan-dasar\kemampuan-dasar-1\latihan\powershellscripts
+
+
+Mode                LastWriteTime         Length Name
+----                -------------         ------ ----
+-a----       30/11/2019     16:44              0 My First Script.ps1
+
+
+PS C:\WINDOWS\system32> & "C:\Users\HP\Documents\praxis-academy\kemampuan-dasar\kemampuan-dasar-1\latihan\powershellscripts\My First Script.ps1"
+& : The term 'C:\Users\HP\Documents\praxis-academy\kemampuan-dasar\kemampuan-dasar-1\latihan\powershellscripts\My First Script.ps1'
+is not recognized as the name of a cmdlet, function, script file, or operable program. Check the spelling of the name, or if a path was
+included, verify that the path is correct and try again.
+At line:1 char:3
++ & "C:\Users\HP\Documents\praxis-academy\kemampuan-dasar\kemampuan-das ...
++   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\Users\HP\Doc...irst Script.ps1:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+
+PS C:\Users\HP> Set-ExecutionPolicy RemoteSigned                                                                                            
+Execution Policy Change
+The execution policy helps protect you from scripts that you do not trust. Changing the execution policy might expose you to the security
+risks described in the about_Execution_Policies help topic at https:/go.microsoft.com/fwlink/?LinkID=135170. Do you want to change the
+execution policy?
+[Y] Yes  [A] Yes to All  [N] No  [L] No to All  [S] Suspend  [?] Help (default is "N"): Y
+
+PS C:\Users\HP> & "C:\Users\HP\Documents\praxis-academy\kemampuan-dasar\kemampuan-dasar-1\latihan\powershellscripts\My First Script.ps1"
+Hello, World!

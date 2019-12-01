@@ -1,0 +1,39 @@
+PS C:\Users\HP> C:\Users\HP\Documents\praxis-academy\kemampuan-dasar\kemampuan-dasar-1\kasus\cari-java.ps1
+cmdlet cari-java.ps1 at command pipeline position 1
+Supply values for the following parameters:
+Directory: C:\Users\HP\Documents\praxis-academy
+
+
+    Directory: C:\Users\HP\Documents\praxis-academy\kemampuan-dasar\kemampuan-dasar-1\latihan\shellscripts
+
+
+Mode                LastWriteTime         Length Name
+----                -------------         ------ ----
+-a----       28/11/2019     21:53              0 test.java
+
+
+    Directory: C:\Users\HP\Documents\praxis-academy\kemampuan-dasar\kemampuan-dasar-1\latihan
+
+
+Mode                LastWriteTime         Length Name
+----                -------------         ------ ----
+-a----       30/11/2019     21:51              0 coba-kasus.java
+
+
+PS C:\Users\HP> C:\Users\HP\Documents\praxis-academy\kemampuan-dasar\kemampuan-dasar-1\kasus\cari-java.ps1 C:\Users\HP\Documents\praxis-academy
+
+
+    Directory: C:\Users\HP\Documents\praxis-academy\kemampuan-dasar\kemampuan-dasar-1\latihan\shellscripts
+
+
+Mode                LastWriteTime         Length Name
+----                -------------         ------ ----
+-a----       28/11/2019     21:53              0 test.java
+
+
+    Directory: C:\Users\HP\Documents\praxis-academy\kemampuan-dasar\kemampuan-dasar-1\latihan
+
+
+Mode                LastWriteTime         Length Name
+----                -------------         ------ ----
+-a----       30/11/2019     21:51              0 coba-kasus.java
