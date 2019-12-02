@@ -1,13 +1,16 @@
+#buat folder untuk projectmu
 [2019-12-01 17:19.38]  /drives/c/Users/HP/Documents
 [HP.local] ➤ mkdir rhymes
 
 [2019-12-01 17:19.45]  /drives/c/Users/HP/Documents
-[HP.local] ➤ cd rhymes/
+[HP.local] ➤ cd rhymes
 
+#buat directory tersebut menjadi repository git
 [2019-12-01 17:19.49]  /drives/c/Users/HP/Documents/rhymes
 [HP.local] ➤ git init
 Initialized empty Git repository in /drives/c/Users/HP/Documents/rhymes/.git/
 
+#membuat readme.txt, add (menambahkan) dan meng-commit, sebagai permulaan
 [2019-12-01 17:19.54]  /drives/c/Users/HP/Documents/rhymes
 [HP.local] ➤ touch README.txt
 
@@ -20,6 +23,7 @@ Initialized empty Git repository in /drives/c/Users/HP/Documents/rhymes/.git/
  1 file changed, 0 insertions(+), 0 deletions(-)
  create mode 100644 README.txt
 
+#menambahkan beberapa penjelasan terkait project pada file README.txt
 [2019-12-01 17:20.26]  /drives/c/Users/HP/Documents/rhymes
 [HP.local] ➤ echo 'This repo is a collection of my favorite nursery rhymes.' >> README.txt
 
@@ -27,6 +31,7 @@ Initialized empty Git repository in /drives/c/Users/HP/Documents/rhymes/.git/
 [HP.local] ➤ cat README.txt
 This repo is a collection of my favorite nursery rhymes.
 
+#me-review status, apakah ada perubahan yang belum ter-commit
 [2019-12-01 17:20.49]  /drives/c/Users/HP/Documents/rhymes
 [HP.local] ➤ git status
 On branch master
@@ -38,6 +43,7 @@ Changes not staged for commit:
 
 no changes added to commit (use "git add" and/or "git commit -a")
 
+#mengecek perbedaan antara file uang sudah ter-commit dengan yang belum ter-commit, dan kita commit jika ada
 [2019-12-01 17:20.54]  /drives/c/Users/HP/Documents/rhymes
 [HP.local] ➤ git diff
 diff --git a/README.txt b/README.txt
@@ -55,6 +61,7 @@ index e69de29..c83e022 100644
 [master 1992958] Added project overview to README.txt
  1 file changed, 1 insertion(+)
 
+#mendownload beberapa sample text
 [2019-12-01 17:24.22]  /drives/c/Users/HP/Documents/rhymes
 [HP.local] ➤ wget --no-check-certificate https://www.sample-videos.com/text/Sample-text-file-10kb.txt
 --2019-12-01 17:24:30--  https://www.sample-videos.com/text/Sample-text-file-10kb.txt
@@ -118,6 +125,7 @@ Saving to: `Sample-text-file-100kb.txt'
 
 2019-12-01 17:24:59 (274 KB/s) - `Sample-text-file-100kb.txt' saved [102180/102180]
 
+#beberapa sample text yang sudah didownload, kemudian menambahkannya (add)
 [2019-12-01 17:26.36]  /drives/c/Users/HP/Documents/rhymes
 [HP.local] ➤ ls -lrt
 total 93
@@ -160,6 +168,7 @@ Untracked files:
  1 file changed, 59 insertions(+)
  create mode 100644 Sample-text-file-20kb.txt
 
+#menambahkan untuk keseluruhan, jika terlalu banyak yang perlu ditambahkan
 [2019-12-01 17:28.29]  /drives/c/Users/HP/Documents/rhymes
 [HP.local] ➤ git add .
 
@@ -170,6 +179,7 @@ Untracked files:
  create mode 100644 Sample-text-file-100kb.txt
  create mode 100644 Sample-text-file-50kb.txt
 
+#me-review commit history
 [2019-12-01 17:31.49]  /drives/c/Users/HP/Documents/rhymes
 [HP.local] ➤ git log
 
@@ -236,9 +246,6 @@ ea6a25e Added Sample-text-file-20kb.txt
 a92a3d5 First commit.
 
 ~
-~
-~
-~
 commit 5ff7d982812985920df481184e2762c67ba114b8 (HEAD -> master)
 Author: U-LOCAL\HP <alkaff.faizal@gmail.com>
 Date:   Sun Dec 1 17:30:12 2019 +0700
@@ -257,11 +264,13 @@ esque. Nullam id elementum ipsum. Suspendisse cursus lobortis viverra. Proin et 
 +M
 ............
 
-# Create new repo named "rhymes"
+# membuat repo baru di github dengan nama "rhymes"
 
+#menghubungkan repo local dengan repo github
 [2019-12-01 17:35.12]  /drives/c/Users/HP/Documents/rhymes
 [HP.local] ➤ git remote add origin https://github.com/faizal-alkaff/rhymes.git
 
+#meng-upload (push) semua commit yang sudah dilakukan ke repo github
 [2019-12-01 17:40.53]  /drives/c/Users/HP/Documents/rhymes
 [HP.local] ➤ git push -u origin master
 Username for 'https://github.com':
