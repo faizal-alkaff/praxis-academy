@@ -11,12 +11,12 @@
 	import bubble_sort
 
 	nlist = [14,46,43,27,57,41,45,21,70]
-	bubble_sort.bubbleSort(nlist)```
+	bubble_sort.bubbleSort(nlist)
 	
-Output :
-[2019-12-04 22:06.10]  /drives/c/Users/HP/Documents/praxis-academy/novice/01-02
-[HP.local] ➤ python3 call_bubbleSort.py
-[14, 21, 27, 41, 43, 45, 46, 57, 70]
+	Output :
+	[2019-12-04 22:06.10]  /drives/c/Users/HP/Documents/praxis-academy/novice/01-02
+	[HP.local] ➤ python3 call_bubbleSort.py
+	[14, 21, 27, 41, 43, 45, 46, 57, 70]```
 
 
 	
