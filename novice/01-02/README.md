@@ -16,9 +16,7 @@
 	Output :
 	[2019-12-04 22:06.10]  /drives/c/Users/HP/Documents/praxis-academy/novice/01-02
 	[HP.local] ➤ python3 call_bubbleSort.py
-	[14, 21, 27, 41, 43, 45, 46, 57, 70]```
-
-
+	[14, 21, 27, 41, 43, 45, 46, 57, 70]
 	
 2. heap_sort.py -> implementasi dari Algoritma Heap Sort
 	- call_heapSort.py -> cara menggunakan module heap_sort.py
