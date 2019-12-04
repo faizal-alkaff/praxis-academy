@@ -1,0 +1,58 @@
+[2019-12-04 20:34.05]  ~
+[HP.local] ➤ pip install bar
+Collecting bar
+  Downloading https://files.pythonhosted.org/packages/77/d6/760c7a0ee7385ba4b0abb1d38af97e8c2f34cb47fe301315e48204088047/bar-0.2.1.tar.gz
+Building wheels for collected packages: bar
+  Building wheel for bar (setup.py) ... done
+  Created wheel for bar: filename=bar-0.2.1-cp36-none-any.whl size=3165 sha256=3a3ec787972de5e406482c1b8a36c4cca46c84f01e64768a6f79a3a418eaa5ff
+  Stored in directory: /home/mobaxterm/.cache/pip/wheels/17/9c/a5/55b9b87a76a1922cfe09f5ea01edd7e423285ac37d2652d18d
+Successfully built bar
+Installing collected packages: bar
+Successfully installed bar-0.2.1
+
+[2019-12-04 20:36.03]  ~
+[HP.local] ➤ pip show --files bar
+Name: bar
+Version: 0.2.1
+Summary: Configurable progress bars/status monitors for Python console applications.
+Home-page: https://github.com/utdemir/bar
+Author: Utku Demir
+Author-email: utdemir@gmail.com
+License: UNKNOWN
+Location: /usr/lib/python3.6/site-packages
+Requires:
+Required-by:
+Files:
+  __pycache__/bar.cpython-36.pyc
+  bar-0.2.1.dist-info/INSTALLER
+  bar-0.2.1.dist-info/METADATA
+  bar-0.2.1.dist-info/RECORD
+  bar-0.2.1.dist-info/WHEEL
+  bar-0.2.1.dist-info/top_level.txt
+  bar.py
+
+[2019-12-04 20:36.50]  ~
+[HP.local] ➤ pip list --outdated
+Package      Version Latest Type
+------------ ------- ------ -----
+asn1crypto   0.22.0  1.2.0  wheel
+cffi         1.9.1   1.13.2 sdist
+chardet      2.3.0   3.0.4  wheel
+cryptography 1.8.1   2.8    sdist
+idna         2.5     2.8    wheel
+lxml         3.7.3   4.4.2  sdist
+packaging    16.8    19.2   wheel
+ply          3.9     3.11   wheel
+pyasn1       0.2.3   0.4.8  wheel
+pycparser    2.17    2.19   sdist
+pyOpenSSL    16.2.0  19.1.0 wheel
+pyparsing    2.1.10  2.4.5  wheel
+requests     2.13.0  2.22.0 wheel
+setuptools   40.8.0  42.0.2 wheel
+six          1.10.0  1.13.0 wheel
+urllib3      1.20    1.25.7 wheel
+wheel        0.33.1  0.33.6 wheel
+
+[2019-12-04 20:37.38]  ~
+[HP.local] ➤ pip install --upgrade bar
+Requirement already up-to-date: bar in /usr/lib/python3.6/site-packages (0.2.1)

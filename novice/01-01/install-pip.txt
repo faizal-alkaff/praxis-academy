@@ -1,0 +1,20 @@
+[2019-12-03 20:27.17]  ~
+[HP.local] ➤ curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py
+
+[2019-12-03 20:27.25]  ~
+[HP.local] ➤ python3 get-pip.py
+
+[2019-12-03 20:28.19]  ~
+[HP.local] ➤ pip3 install -U pip
+Collecting pip
+  Downloading https://files.pythonhosted.org/packages/00/b6/9cfa56b4081ad13874b0c6f96af8ce16cfbc1cb06bedf8e9164ce5551ec1/pip-19.3.1-py2.py3-none-any.whl (1.4MB)
+    100% |████████████████████████████████| 1.4MB 673kB/s
+Installing collected packages: pip
+  Found existing installation: pip 19.0.3
+    Uninstalling pip-19.0.3:
+      Successfully uninstalled pip-19.0.3
+Successfully installed pip-19.3.1
+
+[2019-12-03 20:30.14]  ~
+[HP.local] ➤ pip3 --version
+pip 19.3.1 from /usr/lib/python3.6/site-packages/pip (python 3.6)
