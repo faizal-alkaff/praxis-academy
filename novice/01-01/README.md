@@ -1,8 +1,8 @@
 #### Judul	: Hari 1 Python, Ekosistem Python, dan Dasar-dasar Pemrograman Python
-#### Oleh		: Muhammad Faizal Al Kaff
-#### Tanggal	: 3 Desember 2019
-#### Ringkasan Materi : Mempelajari Algoritma Sorting
-#### Penjelasan Tentang Isi Repo : Implementasi dari Algoritma Sorting
+Oleh		: Muhammad Faizal Al Kaff
+Tanggal	: 3 Desember 2019
+Ringkasan Materi : Mempelajari Algoritma Sorting
+Penjelasan Tentang Isi Repo : Implementasi dari Algoritma Sorting ####
 
 ## Daftar file hasil implementasi :
 1. install-pip.txt -> langkah installation pip
