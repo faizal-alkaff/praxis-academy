@@ -4,6 +4,7 @@ class Deposit:
     
     def setDeposit(self):
         self.deposit = int(input("\n\t\tEnter the amount of money to deposit : "))
+        Deposit.getDeposit(self)
         
     def getDeposit(self):
         BalanceInquiry.balance = BalanceInquiry.balance + self.deposit
@@ -62,26 +63,39 @@ class ATMMachine(Deposit, Withdraw, BalanceInquiry):
         print("\t\tPress [3] Balance Inquiry");
         print("\t\tPress [4] Exit");
         
-        while choice == 1:
-            select = int(input("\n\t\tWhat would you like to do ? "))
-            if select > 4:
-                print("\n\t\tPlease select correct transaction.")
-            elif select == 1:
-                Deposit.setDeposit(self)
-                Deposit.getDeposit(self)
-            
-            elif select == 2:
-                Withdraw.setWithdraw(self)
+        try:
+            while choice == 1:
+                choice=3
+                select = int(input("\n\t\tWhat would you like to do ? "))
+                if select > 4 or select == 0:
+                    choice=1
+                    print("\n\t\tPlease select correct transaction.")
+                    continue
+                elif select == 1:
+                    Deposit.setDeposit(self)
                 
-            elif select == 3:
-                BalanceInquiry.getBalance(self)
-                
-            elif select == 4:
-                break
-            
-            print("\n\t\tWould you like to try another transaction ? ")
-            print("\t\tPress [1] Yes \n\t\tPress [2] No")
-            choice = int(input("\t\tEnter choice: "))
+                elif select == 2:
+                    Withdraw.setWithdraw(self)
+                    
+                elif select == 3:
+                    BalanceInquiry.getBalance(self)
+                    
+                elif select == 4:
+                    break
+
+                print("\n\t\tWould you like to try another transaction ? ")
+                print("\t\tPress [1] Yes \n\t\tPress [2] No")
+                while choice >= 3:
+                    choice = int(input("\t\tEnter choice: "))
+                    if choice == 1:
+                        continue
+                    elif choice != 2:
+                        print("\t\tPlease select correct choice.")
+                    else:
+                        continue
+        except ValueError:
+            print("\t\tError Input! Please enter a number only.")
+        
 
         print("\n\t\tThank you for using this simple ATM Machine.")
 mech_A=ATMMachine()
