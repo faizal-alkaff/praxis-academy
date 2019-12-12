@@ -1,0 +1,74 @@
+mysql> use tutorial;
+Database changed
+
+mysql> show tables;
++--------------------+
+| Tables_in_tutorial |
++--------------------+
+| table1             |
+| table2             |
+| table3             |
++--------------------+
+3 rows in set (0.01 sec)
+
+mysql> desc table1;
++------------------+-------------+------+-----+---------+----------------+
+| Field            | Type        | Null | Key | Default | Extra          |
++------------------+-------------+------+-----+---------+----------------+
+| membership_id    | int(11)     | NO   | PRI | NULL    | auto_increment |
+| full_names       | varchar(40) | YES  |     | NULL    |                |
+| physical_address | char(100)   | YES  |     | NULL    |                |
+| salutation_id    | int(11)     | YES  | MUL | NULL    |                |
++------------------+-------------+------+-----+---------+----------------+
+4 rows in set (0.01 sec)
+
+mysql> desc table2;
++---------------+-------------+------+-----+---------+-------+
+| Field         | Type        | Null | Key | Default | Extra |
++---------------+-------------+------+-----+---------+-------+
+| membership_id | int(11)     | NO   | MUL | NULL    |       |
+| movies_rented | varchar(40) | NO   |     | NULL    |       |
++---------------+-------------+------+-----+---------+-------+
+2 rows in set (0.01 sec)
+
+mysql> desc table3;
++---------------+------------+------+-----+---------+-------+
+| Field         | Type       | Null | Key | Default | Extra |
++---------------+------------+------+-----+---------+-------+
+| salutation_id | int(11)    | NO   | PRI | NULL    |       |
+| salution      | varchar(5) | YES  |     | NULL    |       |
++---------------+------------+------+-----+---------+-------+
+2 rows in set (0.00 sec)
+
+mysql> select * from table1;
++---------------+-------------+------------------------+---------------+
+| membership_id | full_names  | physical_address       | salutation_id |
++---------------+-------------+------------------------+---------------+
+|             1 | JanetJones  | First Street Plot No 4 |             2 |
+|             2 | Robert Phil | 3rd Street 34          |             1 |
+|             3 | Robert Phil | 5th Avenue             |             1 |
++---------------+-------------+------------------------+---------------+
+3 rows in set (0.00 sec)
+
+mysql> select * from table2;
++---------------+---------------------------+
+| membership_id | movies_rented             |
++---------------+---------------------------+
+|             1 | Pirates of the Caribbean  |
+|             1 | Clash of the Titans       |
+|             2 | Forgetting Sarah Marshal  |
+|             2 | Daddys's the Little Girls |
+|             3 | Pirates of the Caribbean  |
++---------------+---------------------------+
+5 rows in set (0.00 sec)
+
+mysql> select * from table3;
++---------------+----------+
+| salutation_id | salution |
++---------------+----------+
+|             1 | Mr.      |
+|             2 | Ms.      |
+|             3 | Mrs.     |
+|             4 | Dr.      |
++---------------+----------+
+4 rows in set (0.00 sec)
